@@ -1,0 +1,16 @@
+<parameters>
+    <postProcessor>
+        <type>Math</type>
+        <variables>
+            <variable>
+                <name>num_obs</name>
+                <expr>num_obs_mean * num_obs_counts</expr>
+            </variable>
+            <variable>
+                <name>chl_mph_mean</name>
+                <expr>chl_mph_mean_mean</expr>
+            </variable>
+        </variables>
+    </postProcessor>
+</parameters>
+
