@@ -147,7 +147,7 @@ public class LakeAggregateOp extends Operator {
         binningOp.setParameter("metadataTemplateDir", metadataTemplateDir);
         binningOp.setParameter("metadataAggregatorName", metadataAggregatorName);
 
-        binningOp.setPlanetaryGridClass("org.esa.beam.binning.support.PlateCarreeGrid");
+        binningOp.setPlanetaryGridClass("org.esa.snap.binning.support.PlateCarreeGrid");
         binningOp.setCompositingType(CompositingType.MOSAICKING);
 
         setTargetProduct(binningOp.getTargetProduct());
