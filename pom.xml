@@ -6,7 +6,7 @@
 
     <groupId>com.bc.snap</groupId>
     <artifactId>snap-cglops</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <name>CGLOPS processing with SNAP</name>
     <description>
         Processors for processing for the CGLOPS project
