@@ -42,7 +42,7 @@ import java.io.File;
  * @author marcoz
  */
 @OperatorMetadata(alias = "LakeAggregate",
-        version = "1.0",
+        version = "1.2",
         authors = "Marco Zühlke",
         copyright = "(c) 2015 by Brockmann Consult GmbH",
         description = "Performs spatial and temporal aggregation of pixel values into cells ('bins') of a planetary grid over a lake",
