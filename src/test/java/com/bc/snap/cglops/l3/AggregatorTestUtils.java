@@ -48,7 +48,7 @@ public class AggregatorTestUtils {
 
     public static BinContext createCtx() {
         return new BinContext() {
-            private HashMap<String, Object> map = new HashMap<String, Object>();
+            private final HashMap<String, Object> map = new HashMap<>();
 
             @Override
             public long getIndex() {
@@ -63,6 +63,11 @@ public class AggregatorTestUtils {
             @Override
             public void put(String name, Object value) {
                 map.put(name, value);
+            }
+
+            @Override
+            public String ensureUnique(String s) {
+                return null;
             }
         };
     }

@@ -16,23 +16,18 @@
 
 package com.bc.snap.cglops.l2;
 
-import com.vividsolutions.jts.geom.Geometry;
 import org.esa.snap.binning.AggregatorConfig;
 import org.esa.snap.binning.CellProcessorConfig;
 import org.esa.snap.binning.CompositingType;
 import org.esa.snap.binning.ProductCustomizerConfig;
-import org.esa.snap.binning.operator.AggregatorConfigDomConverter;
-import org.esa.snap.binning.operator.BinningOp;
-import org.esa.snap.binning.operator.CellProcessorConfigDomConverter;
-import org.esa.snap.binning.operator.ProductCustomizerConfigDomConverter;
-import org.esa.snap.binning.operator.VariableConfig;
+import org.esa.snap.binning.operator.*;
 import org.esa.snap.core.gpf.Operator;
 import org.esa.snap.core.gpf.OperatorException;
 import org.esa.snap.core.gpf.OperatorSpi;
 import org.esa.snap.core.gpf.annotations.OperatorMetadata;
 import org.esa.snap.core.gpf.annotations.Parameter;
 import org.esa.snap.core.util.converters.JtsGeometryConverter;
-
+import org.locationtech.jts.geom.Geometry;
 
 import java.io.File;
 
