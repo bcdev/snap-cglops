@@ -14,7 +14,7 @@
     <packaging>nbm</packaging>
 
     <properties>
-        <snap.version>7.0.3</snap.version>
+        <snap.version>[7.0.3, 7.1.0)</snap.version>
         <brandingToken>s3tbx</brandingToken>
     </properties>
 
@@ -52,7 +52,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
