@@ -14,7 +14,8 @@
     <packaging>nbm</packaging>
 
     <properties>
-        <snap.version>[8.0.2, 8.1.0)</snap.version>
+<!--        <snap.version>[8.0.0, 8.0.2)</snap.version>-->
+        <snap.version>8.0.0</snap.version>
         <brandingToken>s3tbx</brandingToken>
     </properties>
 
